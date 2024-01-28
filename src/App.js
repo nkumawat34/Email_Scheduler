@@ -14,7 +14,7 @@ const EmailScheduler = () => {
 
   const scheduleEmails = () => {
     // Implement your logic to schedule emails here
-    axios.get("http://localhost:3000/email",{
+    axios.get("https://api-email-scheduler.onrender.com/email",{
       params:{
         param1:emailFields
       }
