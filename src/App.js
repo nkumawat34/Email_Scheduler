@@ -13,7 +13,7 @@ const EmailScheduler = () => {
   };
 
   const scheduleEmails = () => {
-    // Implement your logic to schedule emails here
+   
     axios.get("https://api-email-scheduler.onrender.com/email",{
       params:{
         param1:emailFields
